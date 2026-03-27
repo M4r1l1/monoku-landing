@@ -12,8 +12,8 @@
   --serif: 'Playfair Display', Georgia, serif;
 }
 html { scroll-behavior: smooth; }
-.hero, .hero * { cursor: url('../assets/img/about/cursor.svg') 4 2, auto; }
-.hero a, .hero button { cursor: url('../assets/img/about/cursor.svg') 4 2, pointer; }
+* { cursor: url('../assets/img/about/cursor.svg') 4 2, auto; }
+a, button, [role="button"], input, select, textarea, label { cursor: pointer; }
 body {
   font-family: var(--sans); background: var(--bg); color: var(--black);
   -webkit-font-smoothing: antialiased; overflow-x: hidden; line-height: 1.6;
